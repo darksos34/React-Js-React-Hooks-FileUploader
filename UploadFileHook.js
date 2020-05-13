@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import FileService from "../../../services/FileService";
 
-// Example to upload files to the back-end with @blob
+//   Example to upload files to the back-end with @blob
 //REACT HOOK
 export default function UploadFile() {
     const [image, setImage] = useState({preview: "", raw: ""}), handleChange = e => {
